@@ -1,0 +1,17 @@
+main{
+    display: flex;
+    justify-content: center;
+    background-color: $dark;
+}
+p{
+    text-align: center;
+    color: $light;
+}
+article{
+    width: 45%;
+    height: 550px;
+    color: $light;
+    padding: 10px;
+    text-align: center;
+    margin: auto;
+}

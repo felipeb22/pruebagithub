@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+nav {
+  background-image: url(../img/headerfondo.jpg);
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  display: flex;
+  height: 80vh;
+  padding: 10px;
+  border: solid 1px;
+  justify-content: space-around; }
+  nav ul li {
+    display: inline-block;
+    list-style: none;
+    padding: 5px;
+    margin-left: 20px;
+    vertical-align: middle; }
+
+main {
+  display: flex;
+  justify-content: center;
+  background-color: #000; }
+
+p {
+  text-align: center;
+  color: white; }
+
+article {
+  width: 45%;
+  height: 550px;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  margin: auto; }
+
+footer {
+  background-color: #b88449;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8px;
+  font-size: 5px; }
+
+* {
+  margin: 0;
+  padding: 0; }

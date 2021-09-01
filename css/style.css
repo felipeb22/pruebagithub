@@ -1,0 +1,222 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    background-color: rgb(156, 90, 68);
+    background: linear-gradient( to top, rgb(156, 90, 68), rgb(110, 80, 50));
+}
+
+
+
+
+
+h1{
+    font-size: 40px;
+    text-align: center;
+    color: rgb(80, 47, 28);
+    
+}
+footer{
+    padding: 20px;
+    background-color: rgb(179, 96, 28);
+    font-size: 8px;
+    color: rgb(71, 38, 33);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+h3{
+    color: magenta;
+}
+p{
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+
+.textTransform{
+    text-transform: uppercase;
+}
+
+#textcenter{
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(2, 1fr) ;
+    grid-template-rows: 400px 400px 400px ;
+    margin-left: 30px;
+}
+
+
+#container{
+   
+    background-image: url(../img/headerfondo.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    padding: 10px;
+    border: solid 1px;
+    align-items: center;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+
+    
+}
+
+
+
+
+nav #logo{
+    text-align: left;
+    vertical-align: middle;
+}
+   
+
+
+nav ul{
+    color: aquamarine;
+    margin: 0;
+    padding: 0;
+    font-size: 0;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    padding: 5px;
+    margin-left: 20px;
+    vertical-align: middle;
+    
+}
+
+nav ul li a{
+    color: rgb(165, 36, 36);
+    text-decoration: none;
+    font-size: 20px;
+    vertical-align: middle;
+    
+}
+
+nav ul li a:hover{
+    color: rgb(231, 161, 69);
+    text-decoration: underline;
+    background: linear-gradient(to  left, rgb(231, 161, 69), rgb(66, 28, 10));
+    cursor: pointer;
+}
+
+
+nav ul ul{
+    position: absolute;
+    display: none;
+}
+
+    nav ul ul li{
+        display: block;
+    }   
+
+    nav ul li:hover ul{
+        display: block;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.fotografos ul li{
+    color: rgb(247, 164, 56);
+    text-align: center;
+    
+}
+#elegir{
+    text-align: center;
+}
+
+
+
+#heroe{
+    margin-left: 30px;
+    margin-right: 30px;
+
+    
+}
+    
+#mainPrimero{
+    display: flex;
+    justify-content: center;
+
+}
+
+#textoprincipal{
+    font-size: 18px;
+}
+#inicio1{
+    width: 45%;
+    height: 550px;
+    background-color: rgb(252, 215, 137);
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+#caja1{
+    width: 50%;
+    height: 200px;
+    background-color: wheat;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin: auto;
+    
+
+}
+
+#caja2{
+    width: 50%;
+    height: 200px;
+    background-color: rgb(204, 185, 148);
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin: auto;
+
+
+}
+
+#caja3{
+    width: 50%;
+    height: 200px;
+    background-color: rgb(172, 153, 119);
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin: auto;
+
+}

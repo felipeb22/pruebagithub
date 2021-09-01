@@ -1,0 +1,20 @@
+nav{
+    background-image: $mainImage;
+    background-position: $bg-position-center;
+    background-attachment: $bg-attachment-fixed;
+    background-size: $bg-size-cover;
+    display: flex;
+    height: 80vh;
+    padding: 10px;
+    border: solid 1px;
+    justify-content: space-around;
+    ul{
+        li{
+            display: inline-block;
+            list-style: none;
+            padding: 5px;
+            margin-left: 20px;
+            vertical-align: middle; 
+        }
+    }
+}
